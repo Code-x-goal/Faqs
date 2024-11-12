@@ -61,7 +61,7 @@ function change(){
 function change1(){
     var icon=document.getElementById('change1');
     if(icon.src.endsWith('plus.svg')){
-        icon.src=./icon-minus.svg';
+        icon.src='./icon-minus.svg';
     }
     else{
         icon.src='./icon-plus.svg';
@@ -81,7 +81,7 @@ function change2(){
 function change3(){
     var icon=document.getElementById('change3');
     if(icon.src.endsWith('plus.svg')){
-        icon.src=./icon-minus.svg';
+        icon.src='./icon-minus.svg';
     }
     else{
         icon.src='./icon-plus.svg';
