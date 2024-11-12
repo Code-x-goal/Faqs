@@ -51,40 +51,40 @@ function display3(){
 function change(){
     var icon=document.getElementById('change');
     if(icon.src.endsWith('plus.svg')){
-        icon.src='assets/images/icon-minus.svg';
+        icon.src='./icon-minus.svg';
     }
     else{
-        icon.src='assets/images/icon-plus.svg';
+        icon.src='./icon-plus.svg';
     }
 }
 
 function change1(){
     var icon=document.getElementById('change1');
     if(icon.src.endsWith('plus.svg')){
-        icon.src='assets/images/icon-minus.svg';
+        icon.src=./icon-minus.svg';
     }
     else{
-        icon.src='assets/images/icon-plus.svg';
+        icon.src='./icon-plus.svg';
     }
 }
 
 function change2(){
     var icon=document.getElementById('change2');
     if(icon.src.endsWith('plus.svg')){
-        icon.src='assets/images/icon-minus.svg';
+        icon.src='./icon-minus.svg';
     }
     else{
-        icon.src='assets/images/icon-plus.svg';
+        icon.src='./icon-plus.svg';
     }
 }
 
 function change3(){
     var icon=document.getElementById('change3');
     if(icon.src.endsWith('plus.svg')){
-        icon.src='assets/images/icon-minus.svg';
+        icon.src=./icon-minus.svg';
     }
     else{
-        icon.src='assets/images/icon-plus.svg';
+        icon.src='./icon-plus.svg';
     }
 }
 
