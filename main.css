@@ -25,7 +25,7 @@ background-size: cover;
 
 .color{
     width: 100vw;
-    background-color: #f9eeff;
+    background-color: hsl(275, 100%, 97%);
     margin: 0px;
 }
 
@@ -38,6 +38,7 @@ overflow-x: hidden;
 .display{
     line-height: 20px;
     width: 100%;
+    color: hsl(292, 16%, 49%);
 }
 
 .container{
@@ -79,8 +80,11 @@ hr{
 .text{
     font-weight: 600;
     font-size: 1rem;
+    color: hsl(292, 42%, 14%);
 }
-
+.text:hover{
+    color: hsl(292, 16%, 49%);
+}
 p{
     font-size: 0.8rem;
     font-weight: 400;
@@ -106,8 +110,3 @@ p{
     }
 }
 
-@media screen and (max-width:900px) {
-    body{
-        overflow-x: visible;
-    }
-}
