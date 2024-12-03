@@ -93,7 +93,7 @@ p{
 
 @media screen and (max-width:670px){
     .img-background{
-        background-image: url(assets/images/background-pattern-mobile.svg);
+        background-image: url(./background-pattern-mobile.svg);
     }
 
     .container{
